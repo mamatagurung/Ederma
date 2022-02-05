@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+.header{
+    background: radial-gradient(#fff,#ffd6d6);
+    
+    
+}
+
+/* Navigation Bar */
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+
+}
+a{
+    text-decoration: none;
+    color: #555;
+
+}
+p{
+    color: #555;
+}
+
+
+/* container  */
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+
+/* container text and image */
+.row{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.left{
+    margin-top: 70px;
+    padding-left: 20px;
+}
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+
+}
+.col-2 img{
+    max-width:100%;
+  
+}
+.col-2 h1{
+    font-size:50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+.btn{
+    display: inline-block;
+    background-color: #ff523b;
+    color: white;
+    padding: 8px 30px;
+    margin:30px 0;
+    border-radius: 30px;
+
+}
+.btn:hover{
+    background: #563434;
+    transition:  0.5s;
+}
+
+/* categories */
+.brands{
+    margin: 100px auto;
+    width: 80%;
+
+}
+.brands h2{
+    text-align: center;
+}
+.small-container{
+    margin-top: 30px;
+}
+.col-5{
+    width: 160px;
+}
+.col-5 img{
+    width: 100%;
+    cursor: pointer;
+}
+.col-5 img:hover{
+    width: 110%;
+    transition: 1s;
+}
