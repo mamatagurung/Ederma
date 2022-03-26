@@ -302,11 +302,12 @@ margin: 20px 0;
 
 /* media query for menu */
 @media only screen and (max-width:800px){
+  
     nav ul{
         position: absolute;
         top: 70px;
         left: 0;
-        background: #333;
+        background: rgb(236, 175, 175);
         width: 100%;
         overflow: hidden;
         transition: max-height 0.5s;
