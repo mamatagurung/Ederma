@@ -395,6 +395,10 @@ input:focus{
     color: #ff523b;
     margin-left: 10px;
 }
+.footer-col-1{
+    padding: 0px;
+    margin: auto;
+}
 
 
 /* media query for less than 600 screen size */
