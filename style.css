@@ -462,6 +462,7 @@ th:last-child{
 .account-page{
     background: radial-gradient(#fff,#ffd6d6);
 
+
 }
 .form-container{
     background: #fff;
@@ -532,7 +533,9 @@ form a{
     transform: translateX(100px);
     transition: transform 1s;
 }
-
+.account{
+    margin: 70px ;
+}
 
 
 
